@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information and Message box</title>
+</head>
+<style>
+    table, th, td {
+     border: 2px solid;
+     width: 30%;
+     border-color: rgb(255, 255, 255);
+     background-color: #000000d3;
+    }
+</style>
+<style>
+
+    .table1{
+        text-align: center;
+    }
+    .back{
+        width: 3%;
+              background-color: #ffab02;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+    }
+    
+</style>
+<body>
+    <style>
+        body{
+            background-color: #ff0404;
+        }
+     
+    </style>
+        
+    <div class="back">
+        <a href="index.html" style="text-decoration: none;" >BACK</a>
+    </div>
+    
+
+    <div class="table1">
+        <style>
+            .toptext{
+                color: #f6ff00;
+            }
+        </style>
+        <table align="center">
+            <tr>
+                <div>
+                    <style>
+                        .phone{
+                            color: #f6ff00;
+                            -webkit-text-stroke-width: 0.5px;
+                            -webkit-text-stroke-color: black;
+                            font-size: 20px;
+                        }
+                    </style>
+                    <td ><div class="phone">Phone Number:</div></td>
+                    <td class="toptext">+601162109266</td>
+                </div>
+             
+            </tr>
+            <tr>
+                <div>
+                    <style>
+                        .email{
+                            color: #f6ff00;
+                            -webkit-text-stroke-width: 0.5px;
+                            -webkit-text-stroke-color: black;
+                            font-size: 20px;
+                        }
+                    </style>
+                <td ><div class="email">Personal Email:</div></td>
+                <td class="toptext">calvinloh23@gmail.com</td>
+                </div>
+            </tr>
+        </table>
+    </body>
+    </div>
+    <div class="messagetable">
+        <style>
+            input[type=text], select {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 50px;
+              box-sizing: border-box;
+            }
+
+            textarea{
+                width: 100%;
+                height: 150px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-color: #ffffff;
+                font-size: 16px;
+                resize: none;
+            }
+           
+           
+            input[type=submit] {
+              width: 100%;
+              background-color: #fff200;
+              color: #000000;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              font-size: medium;
+              
+            }
+            
+            input[type=submit]:hover {
+              background-color: #ff0404;
+            }
+            
+            div {
+              border-radius: 1px;
+              
+              padding: 1px;
+              
+            }
+            </style>
+            <body>
+            
+            <h3 style="color: #f6ff00;">Your information</h3>
+            
+            <div>
+              <form >
+                
+                    <label for="fname" style="color: #f6ff00;">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+               
+                
+                <label for="lname" style="color: #f6ff00;">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                <label for="people" style="color: #f6ff00;">Who are you</label>
+                <select id="who are you" name="who are you " >
+                  <option value="Teacher">Teacher</option>
+                  <option value="Student">Student</option>
+                </select>
+                <div class="mgg">
+                    <h3 style="color: #f6ff00;">Massage Box</h3>
+                    <textarea placeholder="Write here....."></textarea>
+                </div>
+              
+              
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+    </div>
+
+</html>
